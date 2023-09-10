@@ -12,8 +12,7 @@ import datetime
 
 
 # In[436]:
-def setting_path(file)
-
+def setting_path(file):
     data_from_site = pd.read_csv(file)
 
 
@@ -368,7 +367,7 @@ def setting_path(file)
     # In[459]:
 
 
-    return data_for_push)
+    return data_for_push
 
 
 setting_path('setting_path')
